@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Exercice 1 -->
+
+    <H1>Bootstrap</H1>
+
+    <h2>I - Blocs positioning</h2>
+
+    <div class="one container bg-dark text-white">
+      <div class="row">
+        <div class="d-flex justify-content-center align-items-center py-3">12 colonnes</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 col-md-1 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-2 d-flex justify-content-center align-items-center py-2">Coucou</div>
+        <div class="col-sm-2 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-3 d-flex justify-content-center align-items-center py-2">ça</div>
+        <div class="col-sm-2 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-2 d-flex justify-content-center align-items-center py-2">va ?</div>
+      </div>
+    </div>
+
+    <!-- Exercice 2 -->
+
+    <h2>II - Imbricated elements</h2>
+
+    <div class="container d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="bx col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center bg-dark text-white py-2">Nouvel</div>
+        </div>
+      </div>
+      <div class="container bg-dark text-white">
+        <div class="row">
+          <div class="bx col-lg-12 d-flex justify-content-center align-items-center py-2">Exercice</div>
+        </div>
+        <div class="row">
+          <div class="bx col-lg-3 d-flex justify-content-center align-items-center py-2">ces</div>
+          <div class="bx col-lg-6 d-flex justify-content-center align-items-center py-2">blocs sont tous</div>
+          <div class="bx col-lg-3 d-flex justify-content-center align-items-center py-2">dans</div>
+        </div>
+        <div class="row">
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2">la même</div>
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2">div où est</div>
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2">inscrit &nbsp;<strong>"Exercice".</strong></div>
+        </div>
+        <div class="row">
+          <div class="bx col-lg-5 d-flex justify-content-center align-items-center py-2">dans</div>
+          <div class="bx col-lg-2 d-flex justify-content-center align-items-center py-2">dans</div>
+          <div class="bx col-lg-5 d-flex justify-content-center align-items-center py-2">dans</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercice 3 -->
+
+    <h2>III - Change elements order</h2>
+
+    <div class="one container bg-dark text-white">
+      <div class="row">
+        <div class="d-flex justify-content-center align-items-center py-3">12 colonnes</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 col-md-1 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-2 d-flex justify-content-center align-items-center py-2 order-11">Bloc 1 de 2</div>
+        <div class="col-sm-2 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-2 d-flex justify-content-center align-items-center py-2 order-6">Bloc 3 de 2</div>
+        <div class="col-sm-2 d-flex justify-content-center align-items-center py-2"></div>
+        <div class="bx col-sm-2 d-flex justify-content-center align-items-center py-2 order-10">Bloc 2 de 2</div>
+      </div>
+    </div>
+
+    <!-- Exercice 4 -->
+
+    <h2>IV - Practice makes good</h2>
+
+    <div class="container d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="bx col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center bg-dark text-white py-2">6 colonnes</div>
+        </div>
+        <div class="row">
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2 bg-dark text-white">4 colonnes</div>
+          <div class="col-lg-4 d-flex justify-content-center align-items-center py-2"></div>
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2 bg-dark text-white">4 colonnes</div>
+        </div>
+      </div>
+      <div class="container bg-dark text-white">
+        <div class="row">
+          <div class="bx col-lg-12 d-flex justify-content-center align-items-center py-2">6 colonnes</div>
+        </div>
+        <div class="row">
+          <div class="bx col-lg-4 d-flex justify-content-center align-items-center py-2">4 colonnes</div>
+          <div class="bx col-lg-8 d-flex justify-content-center align-items-center py-2">8 colonnes</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exercice 5 -->
+
+    <h2>V - Responsive layout</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="bx1 col-md-3 col-sm-4 col-xs-2 d-flex justify-content-center align-items-center py-4">Logo (1/3)</div>
+        <div class="bx1 col-md-9 col-sm-8 col-xs-4 d-flex justify-content-center align-items-center py-4">Titre (2/3)</div>
+      </div>
+      <div class="row">
+        <div class="bx1 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center py-4">Hero (1/1)</div>
+
+        <div class="bx1 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center py-4">Zone 1</div>
+
+        <div class="bx1 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center py-4">Zone 2</div>
+
+        <div class="bx1 col-md-4 col-sm-12 col-xs-12 d-flex justify-content-center align-items-center py-4">Zone 3</div>
+      </div>
+      <div class="row">
+        <div class="bx1 bx1 col-md-6 col-sm-8 col-xs-4 d-flex justify-content-center align-items-center py-4">Zone 5 (2/3)</div>
+        <div class="bx1 bx1 col-md-6 col-sm-4 col-xs-2 d-flex justify-content-center align-items-center py-4">Zone 6 (1/3)</div>
+      </div>
+      <div class="row">
+        <div class="bx1 col-xs-12 d-flex justify-content-center align-items-center py-4">Footer</div>
+      </div>
+    </div>
+  </body>
+</html>
